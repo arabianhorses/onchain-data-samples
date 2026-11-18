@@ -4,7 +4,6 @@ Selected BigQuery SQL and Python from **LP Scanner**, a pipeline I built to meas
 
 These are working excerpts from a larger private project, shared to show how I write data pipelines. They reference my own BigQuery dataset (`lpscanner.*`) and a few helper functions in it (e.g. `hex_to_int_str` for two's-complement int256 decoding), so they won't run as-is.
 
-Related public work: [Paribu's users, seen from the chain](https://decentralizedanalysis.com/dashboards/paribu/article/), an analysis of an exchange's users built from public Ethereum data ([dashboard](https://decentralizedanalysis.com/dashboards/paribu/)).
 
 ## BigQuery: incremental Uniswap v3 pipeline (`bigquery/uniswap_v3/`)
 
